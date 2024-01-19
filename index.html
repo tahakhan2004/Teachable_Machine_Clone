@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Teachable Machine</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" style=" cursor: pointer;">
+            <span class="ml-3 text-xl " style="color: #1967D2; font-size: 24px; font-weight: bold;font-family: Arial, Helvetica, sans-serif;">Teachable Machine</span>
+          </a>
+          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a class="mr-5 hover:text-gray-900" style="text-decoration: underline; color: black;font-size: 18px; font-family: Arial, Helvetica, sans-serif;  cursor: pointer;">About</a>
+          </nav>
+          <a href="/GettingStarted.html">
+          <button class="inline-flex items-center border-0 focus:outline-none rounded text-base mt-4 md:mt-0" style="background: #4285f4; padding: 8px 15px 6px; color: white; font-size: 18px;font-family: Arial, Helvetica, sans-serif; font-weight: 600;">Get Started
+          </button>
+        </a>
+        </div>
+      </header>
+
+<section class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <h1 class="sm:text-4xl mb-8" style="color: #1A73E8; font-size: 64px;font-family: Arial, Helvetica, sans-serif; font-weight: 600;">Teachable Machine
+      </h1>
+      <p class="mb-8 leading-relaxed" style="color: #000000; font-size: 28px;font-family: Arial, Helvetica, sans-serif; font-weight: 600;">Train a computer to recognize your own images, sounds, & poses.</p>
+      <p class="mb-8 leading-relaxed" style="color: #000000; font-size: 18px;font-family: Arial, Helvetica, sans-serif;">A fast, easy way to create machine learning models for your sites, apps, and more – no expertise or coding required.</p>
+      <div class="flex justify-center">
+        <a href="/GettingStarted.html">
+
+        <button class="inline-flex items-center border-0 focus:outline-none rounded text-base mt-4 md:mt-0" style="background: #4285f4; padding: 18px 50px 16px;margin: 15px 0px 0px ;color: white; font-size: 18px;font-family: Arial, Helvetica, sans-serif; font-weight: 600;">Get Started
+        </button>
+      </a>
+      </div>
+    </div>
+    <div class="lg:max-w-lg lg:w-full mx-auto md:w-1/2 w-5/6">
+      <video width="550" height="400" autoplay muted loop>
+        <source src="./assets/prediction.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</section>
+
+<section class="text-gray-600 body-font">
+    <div class="container mx-auto flex px-5 py-10 items-center justify-center flex-col">
+
+      <div class="text-center lg:w-2/3 w-full">
+        <h1 class="sm:text-4xl mb-4 text-center" style="color: #000000; font-size: 48px;font-family: Arial, Helvetica, sans-serif; font-weight: 600;">What is Teachable Machine?</h1>
+       
+        <p class="mb-8 leading-relaxed" style="color: #000000; font-size: 18px;font-family: Arial, Helvetica, sans-serif;">Teachable Machine is a web-based tool that makes creating machine learning models fast, easy, and accessible to everyone. (Note: you can find the first version of Teachable Machine from 2017 here.)</p>
+      </div>
+      <!-- <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"> -->
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/T2qQGqZxkD0?si=XZeXEiyNlIkaTECW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    </div>
+  </section>
+
+  <div class="text-center mt-28 w-full">
+    <h1 class="sm:text-4xl text-center" style="color: #000000; font-size: 48px;font-family: Arial, Helvetica, sans-serif; font-weight: 600;">How do I use it?</h1>
+  </div>
+  <section class="text-gray-600 body-font">
+
+    <div class="container px-5 py-20 mx-auto">
+      <div class="flex flex-wrap -m-4">
+        <div class="p-2 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img class="lg:h-[200px] md:h-[200px] w-full object-cover object-center" src="https://teachablemachine.withgoogle.com/assets/img/contentpage/home/collect.svg" alt="blog">
+            <div class="p-7">
+              <h1 class="mb-3" style="color: #000000; font-size: 24px;font-family: Arial, Helvetica, sans-serif;">1. Gather</h1>
+              <p class="mb-3" style="color: #000000; font-size: 18px;font-family: Arial, Helvetica, sans-serif;">Gather and group your examples into classes, or categories, that you want the computer to learn.</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 md:w-1/3">
+            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+              <img class="lg:h-[200px] md:h-[200px] w-full object-cover object-center" src="	https://teachablemachine.withgoogle.com/assets/img/contentpage/home/train.svg" alt="blog">
+              <div class="p-7">
+                <h1 class="mb-3" style="color: #000000; font-size: 24px;font-family: Arial, Helvetica, sans-serif;">2. Train</h1>
+                <p class="mb-3" style="color: #000000; font-size: 18px;font-family: Arial, Helvetica, sans-serif;">Train your model, then instantly test it out to see whether it can correctly classify new examples.</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-2 md:w-1/3">
+            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+              <img class="lg:h-[200px] md:h-[200px] w-full object-cover object-center" src="	https://teachablemachine.withgoogle.com/assets/img/contentpage/home/export.svg" alt="blog">
+              <div class="p-7">
+                <h1 class="mb-3" style="color: #000000; font-size: 24px;font-family: Arial, Helvetica, sans-serif;">3. Export</h1>
+                <p class="mb-3" style="color: #000000; font-size: 18px;font-family: Arial, Helvetica, sans-serif;">Export your model for your projects: sites, apps, and more. You can download your model or host it online.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+  <div class="text-center mt-28 lg:w-2/3 mx-auto w-full">
+    <h1 class="sm:text-4xl text-center" style="color: #000000; font-size: 48px;font-family: Arial, Helvetica, sans-serif; font-weight: 600;">What can I use to teach it?</h1>
+    <p class="mb-8 mt-12 leading-relaxed text-center" style="color: #000000; font-size: 18px;font-family: Arial, Helvetica, sans-serif;">Teachable Machine is flexible – use files or capture examples live. It’s respectful of the way you work. You can even choose to use it entirely on-device, without any webcam or microphone data leaving your computer.</p>
+  </div>
+  <section class="text-gray-600 body-font">
+
+    <div class="container px-5 py-20 mx-auto">
+      <div class="flex flex-wrap -m-4 justify-center">
+        <div class="p-2 md:w-[320px]">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden p-3">
+            <img class="lg:h-[200px] md:h-[250px] w-full object-cover object-center" src="	https://teachablemachine.withgoogle.com/assets/img/contentpage/home/teach-images.png" alt="blog">
+            <div class="p-3">
+              <h1 class="mb-3" style="color: #000000; font-size: 24px;font-family: Arial, Helvetica, sans-serif;">Images</h1>
+              <p class="mb-3" style="color: #000000; font-size: 18px;font-family: Arial, Helvetica, sans-serif;">Teach a model to classify images using files or your webcam.</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 md:w-[320px]">
+            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden p-3">
+              <img class="lg:h-[200px] md:h-[200px] w-full object-cover object-center" src="https://teachablemachine.withgoogle.com/assets/img/contentpage/home/teach-sounds.png
+              " alt="blog">
+              <div class="p-3">
+                <h1 class="mb-3" style="color: #000000; font-size: 24px;font-family: Arial, Helvetica, sans-serif;">Sounds</h1>
+                <p class="mb-3" style="color: #000000; font-size: 18px;font-family: Arial, Helvetica, sans-serif;">Teach a model to classify audio by recording short sound samples.</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-2  md:w-[320px]">
+            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden p-3">
+              <img class="lg:h-[200px] md:h-[200px] w-full object-cover object-center" src="https://teachablemachine.withgoogle.com/assets/img/contentpage/home/teach-poses.png
+              " alt="blog">
+              <div class="p-3">
+                <h1 class="mb-3" style="color: #000000; font-size: 24px;font-family: Arial, Helvetica, sans-serif;">Poses</h1>
+                <p class="mb-3" style="color: #000000; font-size: 18px;font-family: Arial, Helvetica, sans-serif;">Teach a model to classify body positions using files or striking poses in your webcam.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="text-center mt-28 lg:w-2/3 mx-auto w-full">
+    <h1 class="sm:text-4xl text-center" style="color: #000000; font-size: 48px;font-family: Arial, Helvetica, sans-serif; font-weight: 600;">For Learning</h1>
+    <p class="mb-8 mt-12 leading-relaxed text-center" style="color: #000000; font-size: 18px;font-family: Arial, Helvetica, sans-serif;">Want to learn using Teachable Machine? <br/>
+        Here are some lessons & activities folks have made with it:</p>
+  </div>
+
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap -mx-4 -my-8">
+        <div class="py-8 px-4 lg:w-1/3">
+          <div class="h-full flex items-start">
+            <!-- <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
+              <span class="text-gray-500 pb-2 mb-2 border-b-2 border-gray-200">Tech</span>
+              <span class="font-medium text-lg text-gray-800 title-font leading-none">K-8</span>
+            </div> -->
+            <div class="flex-grow pl-6">
+              <h1 class="mb-3" style="color: #1967D2; font-size: 24px;font-family: Arial, Helvetica, sans-serif;">AI + Ethics</h1>
+              <p class="leading-relaxed mb-5" style="color: #000000; font-size: 18px;font-family: Arial, Helvetica, sans-serif;">by Blakeley H. Payne, Personal Robots Group, MIT Media Lab <br/>
+A lesson for students to start understanding bias in algorithmic systems.
+</p>
+              <a class="inline-flex items-center">
+                <span class="flex-grow flex flex-col pl-0">
+                  <span class="title-font font-medium text-gray-900">Common Core, K-8, tech</span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="py-8 px-4 lg:w-1/3">
+          <div class="h-full flex items-start">
+            <div class="flex-grow pl-6">
+              <h1 class=" mb-3" style="color: #1967D2; font-size: 24px;font-family: Arial, Helvetica, sans-serif;">Dancing with AI</h1>
+              <p class="leading-relaxed mb-5" style="color: #000000; font-size: 18px;font-family: Arial, Helvetica, sans-serif;">by MIT Media Lab <br/> Use Teachable Machine and PoseBlocks to create interactive systems.</p>
+              <a class="inline-flex items-center">
+         
+                <span class="flex-grow flex flex-col pl-3">
+                  <span class="title-font font-medium text-gray-900">K-8, tech</span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="py-8 px-4 lg:w-1/3">
+          <div class="h-full flex items-start">
+            <div class="flex-grow pl-6">
+              <h1 class=" mb-3" style="color: #1967D2; font-size: 24px;font-family: Arial, Helvetica, sans-serif;">Ready AI Lesson </h1>
+              <p class="leading-relaxed mb-5" style="color: #000000; font-size: 18px;font-family: Arial, Helvetica, sans-serif;">by Ready AI<br/>
+                Explore Teachable Machine and learn the concepts of machine learning, classification, and societal impact.</p>
+              <a class="inline-flex items-center">
+                <span class="flex-grow flex flex-col pl-3">
+                  <span class="title-font font-medium text-gray-900">K-12</span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-gray-600 body-font">
+    <div class="container px-5 py-8 mx-auto justify-between flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-center justify-center text-gray-900">
+        <span class="ml-3 text-xl">This is an <br/>A.I.<br/>Experiment</span>
+      </a>
+      <p class="text-xl text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">Privacy & Terms
+    </p>
+      <p class="text-3xl text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">Google
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
